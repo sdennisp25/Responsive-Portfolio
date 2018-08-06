@@ -201,7 +201,6 @@ h4 {
 	}
 	.topper {
 		position: fixed;
-		border: none;
 		
 	}
 	.middlebox {
@@ -231,6 +230,7 @@ h4 {
 	.topper {
 		position: fixed;
 		z-index: 1;
+		border: none;
 		
 	}
 	.header-1 {
@@ -240,6 +240,7 @@ h4 {
 		margin: 0;
 		position: fixed;
 		z-index: 1;
+		
 	}
 
 	.topper nav {
@@ -250,6 +251,7 @@ h4 {
 		margin: 8% 17% 0 0;
 		padding: 10px;
 		z-index: 1;
+		border-bottom: 2px solid #dddddd;
 	}
 
 }

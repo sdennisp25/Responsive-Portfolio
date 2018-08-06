@@ -244,6 +244,7 @@ h4 {
 		margin: 8% 17% 0 0;
 		padding: 10px;
 		z-index: 1;
+		border-bottom: 2px solid #dddddd;
 	}
 
 	.header-1 {
