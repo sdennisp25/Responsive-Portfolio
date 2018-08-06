@@ -12,14 +12,13 @@
 .header-1 {
 	background-color: #4aaaa5;
 	color: #ffffff;
-	width: 30%;
+	max-width: 980px;
 	height: 70px;
 	text-align: center;
-	margin-left: 210px;
+	margin: auto 14%;
 	position: absolute;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	z-index: 1;
-
 }
 
 .header-1 h1 {
@@ -159,13 +158,11 @@ h4 {
 	font-size: 13px;
 	
 }
-
+/* SCREEN GOING TO ITS FIRST TRANSITION INTO THE 980px */
 @media screen and (max-width: 980px) {
 	.topper {
 		position: fixed;
-		
 	}
-
   .middlebox {
 		background-color: #ffffff;
 		width: 550px;
@@ -197,19 +194,24 @@ h4 {
 
 /* SCREEN GOING TO ITS FIRST TRANSITION INTO THE 768PX */
 @media screen and (max-width: 768px) {
-  .middlebox {
-		width: 650px;
-		margin: 15% auto;
+	.portfolio-box {
+		max-width: 100%;
+		height: auto;
+		position: absolute;
 	}
 	.topper {
 		position: fixed;
+		border: none;
 		
 	}
+	.middlebox {
+		margin: 15% auto;
+	}
 	.header-1 {
-		position: fixed;
+		position: absolute;
 		height: 50px;
 		padding: 10px;
-		font-size: 9px;
+		font-size: 10px;
 		margin-left: 5.5%;
 	}
 	.topper nav {

@@ -12,10 +12,10 @@
 .header-1 {
 	background-color: #4aaaa5;
 	color: #ffffff;
-	max-width: 100%;
+	max-width: 980px;
 	height: 70px;
 	text-align: center;
-	margin: auto 10.5%;
+	margin: auto 14%;
 	position: absolute;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	z-index: 1;
@@ -58,7 +58,8 @@ body {
 	position: absolute;
 	height: auto;
 	width: 980px;
-	margin: 10%;
+	margin-top: 10%;
+	margin-left: 13.5%;
 	padding: 30px;
 	border: 2px solid #dddddd;
 }
@@ -145,10 +146,10 @@ h4 {
 /* SCREEN GOING TO ITS FIRST TRANSITION INTO THE 980px */
 @media screen and (max-width: 980px) {
   .portfolio-box {
-		width: 610px;
+		width: 630px;
 		height: auto; 
 		margin-left: 5%;
-		margin-top: 12%;
+		margin-top: 11%;
 		position: absolute;
 	}
 
@@ -156,7 +157,7 @@ h4 {
 		position: fixed;
 		height: 50px;
 		padding: 10px;
-		font-size: 12px;
+		font-size: 10px;
 		margin-left: 5.5%;
 	}
 	.header-1 h1 {
@@ -189,10 +190,15 @@ h4 {
 		max-width: 100%;
 		height: auto;
 		position: absolute;
+		margin-top: 14%;
 	}
 	.topper {
 		position: fixed;
 		
+	}
+	.middlebox {
+		width: 650px;
+		padding: 20px;
 	}
 	.header-1 {
 		position: absolute;
@@ -200,10 +206,6 @@ h4 {
 		padding: 10px;
 		font-size: 10px;
 		margin-left: 5.5%;
-	}
-
-	.header-1 h1 {
-		margin-top: 15px;
 	}
 
 	.topper nav {
@@ -225,14 +227,13 @@ h4 {
 	.portfolio-box {
 		width: auto;
 		height: auto;
-		margin: 30% 25px;
+		margin: 25% auto;
 		position: relative;
 	}
 	.topper {
 		position: fixed;
 		z-index: 1;
 		border: none;
-		
 	}
 	
 	.topper nav {
@@ -240,7 +241,7 @@ h4 {
 		height: 20px;
 		width: 100%;
 		position: fixed;
-		margin: 7% 0 0 0;
+		margin: 8% 17% 0 0;
 		padding: 10px;
 		z-index: 1;
 	}
@@ -268,9 +269,7 @@ h4 {
 		height: 40px;
 	}
 
-	/* .rowedit {
-		max-width: 100%;
-	}  */
+
 
 	img {
 		position: relative;
